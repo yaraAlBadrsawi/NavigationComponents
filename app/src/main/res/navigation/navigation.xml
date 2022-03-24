@@ -7,20 +7,36 @@
 
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.example.navigationcomponen.FirstFragment"
+        android:name="Fragments.FirstFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" >
         <action
             android:id="@+id/action_firstFragment_to_seconedFragment"
             app:destination="@id/seconedFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_thirdFragment2"
+            app:destination="@id/thirdFragment" />
     </fragment>
-    <fragment
+
+<fragment
         android:id="@+id/seconedFragment"
-        android:name="com.example.navigationcomponen.SeconedFragment"
+        android:name="Fragments.SeconedFragment"
         android:label="fragment_seconed"
         tools:layout="@layout/fragment_seconed" >
+    <action
+        android:id="@+id/action_seconedFragment_to_firstFragment2"
+        app:destination="@id/firstFragment" />
+</fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="Fragments.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
         <action
-            android:id="@+id/action_seconedFragment_to_firstFragment"
+            android:id="@+id/action_thirdFragment_to_firstFragment2"
             app:destination="@id/firstFragment" />
+        <action
+            android:id="@+id/action_thirdFragment_to_seconedFragment2"
+            app:destination="@id/seconedFragment" />
     </fragment>
 </navigation>

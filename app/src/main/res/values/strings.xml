@@ -2,4 +2,18 @@
     <string name="app_name">NavigationComponen</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scened_fragment">Scened Fragment</string>
+    <string name="back_to_first">back to First</string>
+    <string name="welcome_in_third_fragment">Welcome in Third Fragment</string>
+    <string name="show_fragment2">Show fragment2</string>
+    <string name="show_fragment3">Show Fragment3</string>
+    <string name="name">Name</string>
+    <string name="password">password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="forget_password">forget Password</string>
+    <string name="back_to_login">back to login</string>
+    <string name="personal_information">Personal information</string>
+    <string name="enter_new_password">enter new Password</string>
+    <string name="see_new_information">see new Information</string>
 </resources>
